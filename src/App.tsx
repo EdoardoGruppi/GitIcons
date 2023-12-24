@@ -7,7 +7,7 @@ import AppProvider from "./context";
 function App() {
   return (
     <>
-      <MantineProvider>
+      <MantineProvider defaultColorScheme="dark">
         <AppProvider>
           <Header></Header>
           <Cards></Cards>
