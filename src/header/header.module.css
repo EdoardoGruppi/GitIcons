@@ -1,0 +1,25 @@
+.header {
+  height: 3.6rem;
+  margin-bottom: 1rem;
+  /* background-color: var(--mantine-color-body); */
+  background-color: "red" !important;
+  border-bottom: rem(1px) solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+}
+
+.inner {
+  height: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner {
+  height: 2rem;
+}
+
+.search {
+  width: 35%;
+}

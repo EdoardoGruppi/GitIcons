@@ -1,0 +1,452 @@
+{
+  "seedling": {
+    "icon": "🌱",
+    "desc": "Project start",
+    "color": "default",
+    "keys": "initial, start"
+  },
+  "triangular_flag_on_post": {
+    "icon": "🚩",
+    "desc": "Add TODOs",
+    "color": "default",
+    "keys": "todo, steps, list"
+  },
+  "fire": {
+    "icon": "🔥",
+    "desc": "Introduce new feature",
+    "color": "default",
+    "keys": "flame, feature, new"
+  },
+  "bomb": {
+    "icon": "💣",
+    "desc": "Add terrific feature",
+    "color": "default",
+    "keys": "flame, feature, new"
+  },
+  "boom": {
+    "icon": "💥",
+    "desc": "Breaking changes",
+    "color": "default",
+    "keys": "drastic"
+  },
+  "hammer": {
+    "icon": "🔨",
+    "desc": "Update or modify code",
+    "color": "default",
+    "keys": "tool, update, refactor"
+  },
+  "toolbox": {
+    "icon": "🧰",
+    "desc": "Add methods",
+    "color": "default",
+    "keys": "function, utilities"
+  },
+  "thunder": {
+    "icon": "⚡️",
+    "desc": "Improve performance",
+    "color": "default",
+    "keys": "zap, high voltage"
+  },
+  "construction": {
+    "icon": "🚧",
+    "desc": "Work in progress",
+    "color": "default",
+    "keys": "construction, WIP"
+  },
+  "wrench": {
+    "icon": "🔧",
+    "desc": "Create types, constants",
+    "color": "default",
+    "keys": ""
+  },
+  "label": {
+    "icon": "🏷️",
+    "desc": "Set typing",
+    "color": "default",
+    "keys": "type"
+  },
+  "alien": {
+    "icon": "👽️",
+    "desc": "Use external API",
+    "color": "default",
+    "keys": "endpoint, service"
+  },
+  "globe_with_meridians": {
+    "icon": "🌐",
+    "desc": "Add locale",
+    "color": "default",
+    "keys": "internalization, language, timezone"
+  },
+  "neck_tie": {
+    "icon": "👔",
+    "desc": "Add business logic",
+    "color": "default",
+    "keys": "business"
+  },
+  "thread": {
+    "icon": "🧵",
+    "desc": "Concurrency changes",
+    "color": "default",
+    "keys": "thread, parallel"
+  },
+  "man_technologist": {
+    "icon": "👨‍💻",
+    "desc": "Improve dev experience",
+    "color": "default",
+    "keys": "developer, software, UX"
+  },
+  "clown_face": {
+    "icon": "🤡",
+    "desc": "Mock things",
+    "color": "default",
+    "keys": "pretend, fake"
+  },
+  "gear": {
+    "icon": "⚙️",
+    "desc": "Configuration changes",
+    "color": "default",
+    "keys": "config, settings, setup"
+  },
+  "busts_in_silhouette": {
+    "icon": "👥",
+    "desc": "Add contributors",
+    "color": "default",
+    "keys": "author"
+  },
+  "passport_control": {
+    "icon": "🛂",
+    "desc": "Add auth related code",
+    "color": "default",
+    "keys": "auth, roles, permissions"
+  },
+  "whellchair": {
+    "icon": "♿️",
+    "desc": "Improve accessibility",
+    "color": "default",
+    "keys": "access, simplify"
+  },
+  "lock": {
+    "icon": "🔒",
+    "desc": "Security changes",
+    "color": "default",
+    "keys": "security, secure"
+  },
+  "closed_lock_with_key": {
+    "icon": "🔐",
+    "desc": "Add secrets",
+    "color": "default",
+    "keys": "security, secure, secrets"
+  },
+  "see_no_evil": {
+    "icon": "🙈",
+    "desc": "Update .gitignore",
+    "color": "default",
+    "keys": "hide, ignore"
+  },
+  "rewind": {
+    "icon": "⏪️",
+    "desc": "Revert changes",
+    "color": "default",
+    "keys": "reverse, rebase, git"
+  },
+  "twisted_rightwards_arrows": {
+    "icon": "🔀",
+    "desc": "Merge branches",
+    "color": "default",
+    "keys": "join, union, git"
+  },
+  "book": {
+    "icon": "📖",
+    "desc": "Update docs",
+    "color": "cadetBlue",
+    "keys": "docs, documentation, manual"
+  },
+  "speech_bubble": {
+    "icon": "💬",
+    "desc": "Update comments",
+    "color": "cadetBlue",
+    "keys": "comment, documentation"
+  },
+  "memo": {
+    "icon": "📝",
+    "desc": "Update definitions",
+    "color": "cadetBlue",
+    "keys": "functions, definitions"
+  },
+  "bell": {
+    "icon": "🔔",
+    "desc": "Update notifications",
+    "color": "cadetBlue",
+    "keys": "log, messages, notify"
+  },
+  "loud_sound": {
+    "icon": "🔊",
+    "desc": "Add logs",
+    "color": "cadetBlue",
+    "keys": "log, messages"
+  },
+  "mute": {
+    "icon": "🔇",
+    "desc": "Remove logs",
+    "color": "cadetBlue",
+    "keys": "log, messages"
+  },
+  "page_facing_up": {
+    "icon": "📄",
+    "desc": "Add license",
+    "color": "cadetBlue",
+    "keys": ""
+  },
+  "diamond_with_a_dot": {
+    "icon": "💠",
+    "desc": "Update UI structure",
+    "color": "yellow",
+    "keys": "design, styling, UI"
+  },
+  "gem_stone": {
+    "icon": "💎",
+    "desc": "Improve UI",
+    "color": "yellow",
+    "keys": "design, styling, UI"
+  },
+  "paintbrush": {
+    "icon": "🖌️",
+    "desc": "Styling changes",
+    "color": "yellow",
+    "keys": "design, styling, UI"
+  },
+  "dizzy": {
+    "icon": "💫",
+    "desc": "Add animations",
+    "color": "yellow",
+    "keys": "transition, animation"
+  },
+  "bento": {
+    "icon": "🍱",
+    "desc": "Add assets",
+    "color": "yellow",
+    "keys": "images, videos"
+  },
+  "rainbow": {
+    "icon": "🌈",
+    "desc": "Add colors or theming",
+    "color": "yellow",
+    "keys": "color, theme"
+  },
+  "iphone": {
+    "icon": "📱",
+    "desc": "Responsive design",
+    "color": "yellow",
+    "keys": "design, dynamic"
+  },
+  "children_crossing": {
+    "icon": "🚸",
+    "desc": "Improve UX",
+    "color": "yellow",
+    "keys": "user, experience"
+  },
+  "mag": {
+    "icon": "🔍️",
+    "desc": "Improve SEO",
+    "color": "yellow",
+    "keys": "search, seo"
+  },
+  "money": {
+    "icon": "💸",
+    "desc": "Payment logic",
+    "color": "green",
+    "keys": "money, payment"
+  },
+  "link": {
+    "icon": "🔗",
+    "desc": "Add endpoint",
+    "color": "green",
+    "keys": "endpoint, url"
+  },
+  "card_file_box": {
+    "icon": "🗃️",
+    "desc": "Database changes",
+    "color": "green",
+    "keys": "db, tables, schema"
+  },
+  "bricks": {
+    "icon": "🧱",
+    "desc": "Infrastructure changes",
+    "color": "green",
+    "keys": "node, block"
+  },
+  "pencil2": {
+    "icon": "✏️",
+    "desc": "Fix typos",
+    "color": "plum",
+    "keys": "error, typo"
+  },
+  "broom": {
+    "icon": "🧹",
+    "desc": "Clean up code",
+    "color": "plum",
+    "keys": "clean up, maintenance"
+  },
+  "coffin": {
+    "icon": "⚰️",
+    "desc": "Remove dead code",
+    "color": "plum",
+    "keys": ""
+  },
+  "art": {
+    "icon": "🎨",
+    "desc": "Format code",
+    "color": "plum",
+    "keys": "format"
+  },
+  "recycle": {
+    "icon": "♻️",
+    "desc": "Code refactoring",
+    "color": "plum",
+    "keys": "cleanup, refactor"
+  },
+  "truck": {
+    "icon": "🚚",
+    "desc": "Move or rename files",
+    "color": "plum",
+    "keys": ""
+  },
+  "waste_basket": {
+    "icon": "🗑️",
+    "desc": "Remove files",
+    "color": "plum",
+    "keys": "remove, delete, discard"
+  },
+  "building_construction": {
+    "icon": "🏗️",
+    "desc": "Project structure",
+    "color": "plum",
+    "keys": "structure"
+  },
+  "adhesive_bandage": {
+    "icon": "🩹",
+    "desc": "Fix non critical issue",
+    "color": "orange",
+    "keys": "issue, fix, bug"
+  },
+  "bug": {
+    "icon": "🐛",
+    "desc": "Fix a bug",
+    "color": "orange",
+    "keys": "worm, issue, problem"
+  },
+  "ambulance": {
+    "icon": "🚑",
+    "desc": "Critical bug fix",
+    "color": "orange",
+    "keys": "emergency, critical, fix"
+  },
+  "stethoscope": {
+    "icon": "🩺",
+    "desc": "Add healthcheck",
+    "color": "orange",
+    "keys": "health, check"
+  },
+  "warning": {
+    "icon": "⚠️",
+    "desc": "Warnings or alerts",
+    "color": "orange",
+    "keys": "warning, alert"
+  },
+  "rotating_light": {
+    "icon": "🚨",
+    "desc": "Fix linter warnings",
+    "color": "orange",
+    "keys": "lint, alert"
+  },
+  "goal_net": {
+    "icon": "🥅",
+    "desc": "Catch and handle errors",
+    "color": "orange",
+    "keys": "errors, catch"
+  },
+  "test_tube": {
+    "icon": "🧪",
+    "desc": "Set up tests",
+    "color": "orange",
+    "keys": "test, testing, experiment"
+  },
+  "white_check_mark": {
+    "icon": "✅",
+    "desc": "Update, pass tests",
+    "color": "orange",
+    "keys": "test, testing, experiment"
+  },
+  "safety_vest": {
+    "icon": "🦺",
+    "desc": "Validation changes",
+    "color": "orange",
+    "keys": "validation"
+  },
+  "bookmark": {
+    "icon": "🔖",
+    "desc": "Release version",
+    "color": "gray",
+    "keys": "version, tag"
+  },
+  "rocket": {
+    "icon": "🚀",
+    "desc": "Deploy a new version",
+    "color": "gray",
+    "keys": "launch, deploy, version"
+  },
+  "robot": {
+    "icon": "🤖",
+    "desc": "Create CI/CD pipeline",
+    "color": "gray",
+    "keys": "automate, ci/cd"
+  },
+  "construction_worker": {
+    "icon": "👷",
+    "desc": "Update CI",
+    "color": "gray",
+    "keys": "version, ci/cd"
+  },
+  "green_heart": {
+    "icon": "💚",
+    "desc": "Fix CI build",
+    "color": "gray",
+    "keys": "version, ci/cd"
+  },
+  "package": {
+    "icon": "📦",
+    "desc": "Add packages",
+    "color": "gray",
+    "keys": "package, dependency, npm"
+  },
+  "arrow_down": {
+    "icon": "⬇️",
+    "desc": "Downgrade packages",
+    "color": "gray",
+    "keys": "downgrade, packages, dependencies"
+  },
+  "arrow_up": {
+    "icon": "⬆️",
+    "desc": "Upgrade packages",
+    "color": "gray",
+    "keys": "upgrade, packages, dependencies"
+  },
+  "pushpin": {
+    "icon": "📌",
+    "desc": "Pin dependencies",
+    "color": "gray",
+    "keys": "version, tag, package"
+  },
+  "heavy_minus_sign": {
+    "icon": "➖",
+    "desc": "Remove dependency",
+    "color": "gray",
+    "keys": "version, tag, package"
+  },
+  "heavy_plus_sign": {
+    "icon": "➕",
+    "desc": "Add dependency",
+    "color": "gray",
+    "keys": "version, tag, package"
+  }
+}
