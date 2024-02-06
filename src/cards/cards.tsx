@@ -26,12 +26,14 @@ export function Cards() {
 
   useEffect(() => {
     setFilteredIcons(
-      Object.keys(icons.current).filter(
-        (key) =>
-          key.includes(filter) ||
-          icons.current[key].desc.includes(filter) ||
-          icons.current[key].keys.includes(filter)
-      )
+      Object.keys(icons.current).filter((key) => {
+        const lowerFilter = filter.trim().toLowerCase();
+        return (
+          key.toLowerCase().includes(lowerFilter) ||
+          icons.current[key].desc.toLowerCase().includes(lowerFilter) ||
+          icons.current[key].keys.toLowerCase().includes(lowerFilter)
+        );
+      })
     );
   }, [filter]);
 
