@@ -13,7 +13,7 @@
   },
   "fire": {
     "icon": "🔥",
-    "desc": "Introduce new feature",
+    "desc": "Create new file",
     "color": "default",
     "keys": "flame, feature, new"
   },
@@ -208,6 +208,24 @@
     "desc": "Improve UI",
     "color": "yellow",
     "keys": "design, styling, UI"
+  },
+  "puzzle": {
+    "icon": "🧩",
+    "desc": "Add component",
+    "color": "yellow",
+    "keys": "add, modify, component, styling, UI"
+  },
+  "frame": {
+    "icon": "🖼️",
+    "desc": "Create new UI page",
+    "color": "yellow",
+    "keys": "page, design, styling, UI"
+  },
+  "map": {
+    "icon": "🗺️",
+    "desc": "Add UI routing",
+    "color": "yellow",
+    "keys": "page, design, routing, styling, UI"
   },
   "paintbrush": {
     "icon": "🖌️",
@@ -448,5 +466,17 @@
     "desc": "Add dependency",
     "color": "gray",
     "keys": "version, tag, package"
+  },
+  "whale": {
+    "icon": "🐳",
+    "desc": "Modify Docker files",
+    "color": "gray",
+    "keys": "version, tag, package, container"
+  },
+  "helm": {
+    "icon": "👨‍✈️",
+    "desc": "Modify Helm files",
+    "color": "gray",
+    "keys": "version, tag, package, k8s, kubernetes, helm, container"
   }
 }
