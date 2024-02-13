@@ -341,6 +341,12 @@
     "color": "plum",
     "keys": "structure"
   },
+  "chart": {
+    "icon": "📈",
+    "desc": "Fix code deprecated",
+    "color": "orange",
+    "keys": "issue, fix, bug"
+  },
   "adhesive_bandage": {
     "icon": "🩹",
     "desc": "Fix non critical issue",
@@ -413,6 +419,18 @@
     "color": "gray",
     "keys": "launch, deploy, version"
   },
+  "whale": {
+    "icon": "🐳",
+    "desc": "Modify Docker files",
+    "color": "gray",
+    "keys": "version, tag, package, container"
+  },
+  "statue_of_liberty": {
+    "icon": "🗽",
+    "desc": "Modify Helm files",
+    "color": "gray",
+    "keys": "version, tag, package, k8s, kubernetes, helm, container"
+  },
   "robot": {
     "icon": "🤖",
     "desc": "Create CI/CD pipeline",
@@ -467,16 +485,10 @@
     "color": "gray",
     "keys": "version, tag, package"
   },
-  "whale": {
-    "icon": "🐳",
-    "desc": "Modify Docker files",
+    "heavy_plus_sign": {
+    "icon": "🔄",
+    "desc": "Rollback",
     "color": "gray",
-    "keys": "version, tag, package, container"
-  },
-  "helm": {
-    "icon": "👨‍✈️",
-    "desc": "Modify Helm files",
-    "color": "gray",
-    "keys": "version, tag, package, k8s, kubernetes, helm, container"
+    "keys": "version, tag, package, previous"
   }
 }
