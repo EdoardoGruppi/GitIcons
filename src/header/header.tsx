@@ -1,4 +1,12 @@
-import { Autocomplete, Button, Image, Modal, Text, rem } from "@mantine/core";
+import {
+  Autocomplete,
+  Button,
+  Image,
+  Kbd,
+  Modal,
+  Text,
+  rem,
+} from "@mantine/core";
 import { IconSearch } from "@tabler/icons-react";
 import classes from "./header.module.css";
 import banner from "../assets/Banner.png";
@@ -51,7 +59,8 @@ export function Header() {
               <li>
                 <strong>Copy to Clipboard:</strong> Click on the icon to copy it
                 to your clipboard and paste the icon directly into your Git
-                commit message.
+                commit message or text editor. If you push <Kbd>ctrl</Kbd> while
+                clicking the legend will be copied as well.
               </li>
               <li>
                 <strong>Search for Icons:</strong> Use the search bar to find
