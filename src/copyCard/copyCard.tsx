@@ -7,7 +7,7 @@ export function CopyCard({ clipboard, icon, desc, color }: CopyCardProps) {
     <Card
       shadow="sm"
       padding="sm"
-      onClick={() => clipboard.copy(icon)}
+      onClick={(e) => clipboard.copy(`${icon} ${e.ctrlKey?desc:""}`)}
       className={classes.card}
     >
       <Card.Section
