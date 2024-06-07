@@ -12,6 +12,7 @@ node_modules
 dist
 dist-ssr
 *.local
+.github/dependabot.yml
 
 # Editor directories and files
 .vscode/*
