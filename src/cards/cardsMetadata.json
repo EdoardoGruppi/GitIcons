@@ -53,11 +53,17 @@
     "color": "default",
     "keys": "construction, WIP"
   },
+  "factory": {
+    "icon": "🏭",
+    "desc": "Create classes",
+    "color": "default",
+    "keys": "factory, class, object"
+  },
   "wrench": {
     "icon": "🔧",
     "desc": "Create types, constants",
     "color": "default",
-    "keys": ""
+    "keys": "interface, environment, variables"
   },
   "label": {
     "icon": "🏷️",
@@ -71,17 +77,17 @@
     "color": "default",
     "keys": "endpoint, service"
   },
+  "fishing_pole": {
+    "icon": "🎣",
+    "desc": "Add hook",
+    "color": "default",
+    "keys": "add, modify, component, styling, UI"
+  },
   "globe_with_meridians": {
     "icon": "🌐",
     "desc": "Add locale",
     "color": "default",
     "keys": "internalization, language, timezone"
-  },
-  "neck_tie": {
-    "icon": "👔",
-    "desc": "Add business logic",
-    "color": "default",
-    "keys": "business"
   },
   "thread": {
     "icon": "🧵",
@@ -203,18 +209,6 @@
     "color": "yellow",
     "keys": "design, styling, UI"
   },
-  "gem_stone": {
-    "icon": "💎",
-    "desc": "Improve UI",
-    "color": "yellow",
-    "keys": "design, styling, UI"
-  },
-  "puzzle": {
-    "icon": "🧩",
-    "desc": "Add component",
-    "color": "yellow",
-    "keys": "add, modify, component, styling, UI"
-  },
   "frame": {
     "icon": "🖼️",
     "desc": "Create new UI page",
@@ -227,6 +221,30 @@
     "color": "yellow",
     "keys": "page, design, routing, styling, UI"
   },
+  "milky_way": {
+    "icon": "🌌",
+    "desc": "Improve UI",
+    "color": "yellow",
+    "keys": "design, styling, UI"
+  },
+  "puzzle": {
+    "icon": "🧩",
+    "desc": "Add component",
+    "color": "yellow",
+    "keys": "add, modify, component, styling, UI"
+  },
+  "brain": {
+    "icon": "🧠",
+    "desc": "Add node logic",
+    "color": "yellow",
+    "keys": "add, modify, update, logic"
+  },
+  "gem_stone": {
+    "icon": "💎",
+    "desc": "Add node HTML",
+    "color": "yellow",
+    "keys": "add, modify, update, HTML, render, design"
+  },
   "paintbrush": {
     "icon": "🖌️",
     "desc": "Styling changes",
@@ -238,6 +256,12 @@
     "desc": "Add animations",
     "color": "yellow",
     "keys": "transition, animation"
+  },
+  "chart": {
+    "icon": "📈",
+    "desc": "Add new chart",
+    "color": "yellow",
+    "keys": "ui, graph, plot"
   },
   "bento": {
     "icon": "🍱",
@@ -281,17 +305,41 @@
     "color": "green",
     "keys": "endpoint, url"
   },
+  "neck_tie": {
+    "icon": "👔",
+    "desc": "Add business logic",
+    "color": "green",
+    "keys": "business"
+  },
+  "railway_track": {
+    "icon": "🛤️",
+    "desc": "Add route",
+    "color": "green",
+    "keys": "route, endpoint"
+  },
+  "joypad": {
+    "icon": "🎮",
+    "desc": "Add controller",
+    "color": "green",
+    "keys": "endpoint, controller"
+  },
+  "card_index_divider": {
+    "icon": "🗂️",
+    "desc": "Add repository",
+    "color": "green",
+    "keys": "repo, folder, orm"
+  },
   "card_file_box": {
     "icon": "🗃️",
     "desc": "Database changes",
     "color": "green",
     "keys": "db, tables, schema"
   },
-  "bricks": {
-    "icon": "🧱",
-    "desc": "Infrastructure changes",
+  "satellite": {
+    "icon": "🛰️",
+    "desc": "Update queries",
     "color": "green",
-    "keys": "node, block"
+    "keys": "db, tables, schema, sql, orm"
   },
   "pencil2": {
     "icon": "✏️",
@@ -335,14 +383,20 @@
     "color": "plum",
     "keys": "remove, delete, discard"
   },
+  "bricks": {
+    "icon": "🧱",
+    "desc": "Infrastructure changes",
+    "color": "plum",
+    "keys": "node, block"
+  },
   "building_construction": {
     "icon": "🏗️",
     "desc": "Project structure",
     "color": "plum",
     "keys": "structure"
   },
-  "chart": {
-    "icon": "📈",
+  "derelict_house": {
+    "icon": "🏚️",
     "desc": "Fix code deprecated",
     "color": "orange",
     "keys": "issue, fix, bug"
@@ -391,13 +445,13 @@
   },
   "test_tube": {
     "icon": "🧪",
-    "desc": "Set up tests",
+    "desc": "Setup new tests",
     "color": "orange",
     "keys": "test, testing, experiment"
   },
   "white_check_mark": {
     "icon": "✅",
-    "desc": "Update, pass tests",
+    "desc": "Update and fix tests",
     "color": "orange",
     "keys": "test, testing, experiment"
   },
@@ -409,7 +463,7 @@
   },
   "bookmark": {
     "icon": "🔖",
-    "desc": "Release version",
+    "desc": "Release new version",
     "color": "gray",
     "keys": "version, tag"
   },
@@ -439,7 +493,7 @@
   },
   "construction_worker": {
     "icon": "👷",
-    "desc": "Update CI",
+    "desc": "Update CI pipeline",
     "color": "gray",
     "keys": "version, ci/cd"
   },
@@ -455,27 +509,21 @@
     "color": "gray",
     "keys": "package, dependency, npm"
   },
-  "arrow_down": {
-    "icon": "⬇️",
-    "desc": "Downgrade packages",
-    "color": "gray",
-    "keys": "downgrade, packages, dependencies"
-  },
   "arrow_up": {
     "icon": "⬆️",
     "desc": "Upgrade packages",
     "color": "gray",
     "keys": "upgrade, packages, dependencies"
   },
+  "arrow_down": {
+    "icon": "⬇️",
+    "desc": "Downgrade packages",
+    "color": "gray",
+    "keys": "downgrade, packages, dependencies"
+  },
   "pushpin": {
     "icon": "📌",
     "desc": "Pin dependencies",
-    "color": "gray",
-    "keys": "version, tag, package"
-  },
-  "heavy_minus_sign": {
-    "icon": "➖",
-    "desc": "Remove dependency",
     "color": "gray",
     "keys": "version, tag, package"
   },
@@ -485,7 +533,13 @@
     "color": "gray",
     "keys": "version, tag, package"
   },
-    "heavy_plus_sign": {
+  "heavy_minus_sign": {
+    "icon": "➖",
+    "desc": "Remove dependency",
+    "color": "gray",
+    "keys": "version, tag, package"
+  },
+  "counterclockwise_arrows_button": {
     "icon": "🔄",
     "desc": "Rollback",
     "color": "gray",
