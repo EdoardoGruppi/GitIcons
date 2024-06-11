@@ -353,11 +353,17 @@
     "color": "plum",
     "keys": "clean up, maintenance"
   },
+  "soap": {
+    "icon": "🧼",
+    "desc": "Remove superfluous",
+    "color": "plum",
+    "keys": "clean up, maintenance"
+  },
   "coffin": {
     "icon": "⚰️",
     "desc": "Remove dead code",
     "color": "plum",
-    "keys": ""
+    "keys": "stale"
   },
   "art": {
     "icon": "🎨",
