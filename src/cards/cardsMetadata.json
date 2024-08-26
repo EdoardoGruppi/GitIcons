@@ -31,7 +31,7 @@
   },
   "hammer": {
     "icon": "🔨",
-    "desc": "Update or modify code",
+    "desc": "Update code",
     "color": "default",
     "keys": "tool, update, refactor"
   },
@@ -67,7 +67,7 @@
   },
   "label": {
     "icon": "🏷️",
-    "desc": "Set typing",
+    "desc": "Add typing",
     "color": "default",
     "keys": "type"
   },
@@ -166,6 +166,12 @@
     "desc": "Update docs",
     "color": "cadetBlue",
     "keys": "docs, documentation, manual"
+  },
+  "graduation_cap": {
+    "icon": "🎓",
+    "desc": "Update changelog",
+    "color": "cadetBlue",
+    "keys": "releases, logs, roadmap"
   },
   "speech_bubble": {
     "icon": "💬",
@@ -389,12 +395,6 @@
     "color": "plum",
     "keys": "remove, delete, discard"
   },
-  "bricks": {
-    "icon": "🧱",
-    "desc": "Infrastructure changes",
-    "color": "plum",
-    "keys": "node, block"
-  },
   "building_construction": {
     "icon": "🏗️",
     "desc": "Project structure",
@@ -415,7 +415,7 @@
   },
   "bug": {
     "icon": "🐛",
-    "desc": "Fix a bug",
+    "desc": "Fix bug",
     "color": "orange",
     "keys": "worm, issue, problem"
   },
@@ -475,13 +475,13 @@
   },
   "rocket": {
     "icon": "🚀",
-    "desc": "Deploy a new version",
+    "desc": "Deploy new version",
     "color": "gray",
     "keys": "launch, deploy, version"
   },
   "whale": {
     "icon": "🐳",
-    "desc": "Modify Docker files",
+    "desc": "Modify Dockerfile",
     "color": "gray",
     "keys": "version, tag, package, container"
   },
