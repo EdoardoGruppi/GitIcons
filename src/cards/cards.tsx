@@ -17,7 +17,12 @@ export function Cards() {
   );
 
   function getNumberCols(): number {
-    return Math.floor(window.innerWidth / 16 / 7.8);
+    const cardWidth = 100
+    // Gap: sm equals to 14 px, xs, to 12 px
+    const gap = 14
+    // cardWidth * nCard + (nCard - 1) * gap = innerWidth
+    const nCard = (window.innerWidth - gap) / (cardWidth + gap)
+    return Math.floor(nCard);
   }
 
   window.addEventListener("resize", () => {
