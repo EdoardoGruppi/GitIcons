@@ -25,3 +25,9 @@
 .search {
   width: 35%;
 }
+
+.modalTitle{
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 15px;
+}

@@ -41,6 +41,7 @@ export function Header() {
           centered
           title="App Info"
           size="xl"
+           classNames={{ title: classes.modalTitle }}
         >
           <Text fz="sm">
             This website provides users with a collection of icons that they can
@@ -69,7 +70,6 @@ export function Header() {
               </li>
             </ol>
           </Text>
-          <br />
           <Text fz="sm">
             Acknowledgments
             <ul>
